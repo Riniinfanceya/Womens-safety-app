@@ -1,108 +1,50 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Women Safety</title>
-    <link rel="stylesheet" type="text/css" href="style.css" title="style">
+    <title>Women Safety - Navigation</title>
+    <link rel="stylesheet" href="style.css">
     <style>
-        /* --- Basic Layout Fixes --- */
         body {
           margin: 0;
-          padding: 0;
           font-family: 'Bellefair', serif;
           background-color: #f8f9fa;
         }
-
         #menubar {
-          width: 1600px !important;
           background-color: #2c3e50;
-          padding: 10px 0;
+          padding: 10px;
         }
-
-        ul#menu {
+        #menu {
           display: flex;
           justify-content: center;
           list-style: none;
-          padding: 0;
           margin: 0;
-          transform: translateX(0%) !important;
+          padding: 0;
         }
-
-        ul#menu li {
-          margin: 0 25px;
-        }
-
-        ul#menu li a {
+        #menu li { margin: 0 25px; }
+        #menu li a {
           color: white;
           text-decoration: none;
           font-size: 18px;
           font-family: 'Yatra One', cursive;
-          transition: 0.3s;
         }
-
-        ul#menu li a:hover,
-        ul#menu li.selected a {
-          color: #fdd835;
-          text-shadow: 1px 1px 5px #fff;
-        }
-
-        /* --- Map Section --- */
+        #menu li a:hover { color: #fdd835; }
         #map {
           height: 500px;
           width: 80%;
           margin: 40px auto;
+          border-radius: 10px;
           border: 3px solid #333;
-          border-radius: 15px;
-          background: url('images/map_placeholder.jpg') center/cover no-repeat;
+          background: url('images/map.jpeg') center/cover no-repeat;
           display: flex;
           align-items: center;
           justify-content: center;
-          text-align: center;
-          position: relative;
-          overflow: hidden;
-          box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-          color: #fff;
-        }
-
-        #map::after {
-          content: "";
-          position: absolute;
-          inset: 0;
-          background: rgba(0, 0, 0, 0.4);
-        }
-
-        #map div {
-          position: relative;
-          z-index: 2;
-          background: rgba(0, 0, 0, 0.5);
-          padding: 20px 40px;
-          border-radius: 10px;
-          font-family: 'Yatra One', cursive;
-        }
-
-        #map div h2 {
-          margin: 0;
-          font-size: 26px;
-          color: #fff;
-        }
-
-        #map div small {
-          font-size: 15px;
-          color: #fdd835;
-        }
-
-        /* --- Footer --- */
-        #footer {
-          background-color: #2c3e50;
           color: white;
-          text-align: center;
-          padding: 15px 0;
-          font-family: 'Amarante', cursive;
-          letter-spacing: 1px;
+          text-shadow: 1px 1px 4px #000;
+          font-size: 24px;
         }
     </style>
 </head>
 <body>
-<!-- Navigation Bar -->
 <div id="menubar">
     <ul id="menu">
         <li><a href="index.html">Welcome Page</a></li>
@@ -113,14 +55,6 @@
     </ul>
 </div>
 
-<!-- Map Section -->
-<div id="map">
-    <div>
-        <h2> Safe Navigation Dashboard</h2>
-        <small>Your safety journey begins here. Stay aware, stay empowered!</small>
-    </div>
-</div>
-
-
+<div id="map">area</div>
 </body>
 </html>
